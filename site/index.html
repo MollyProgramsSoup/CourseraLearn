@@ -9,6 +9,19 @@
     <script src='main.js'></script>
 </head>
 <body>
+    <!-- THIS IS AN HTML COMMENT -->
+    <h1>HTML NOTES</h1>
+
+    <section>
+        <ul>
+            <li><a href="#section1">Images</a></li>
+            <li><a href="#section2">Hyperlinks</a></li>
+            <li><a href="#section3">Entity References</a></li>
+            <li><a href="#section4">Lists</a></li>
+            <li><a href="#section5">To Bottom</a></li>
+        </ul>
+    </section>
+
     <nav>short for navigation usually has links</nav>
     <h1 style="color: green">Hello World! Browser-Sync</h1>
     <h2> Heading 2</h2>
@@ -24,31 +37,85 @@
     </aside>
     <footer>
         Copyright stuff
-    </footer>
-    <div> 
-        The tag ul creates an unordered list
-        The tag li indicates a list item
-        the tag ol creates an ordered list
-    </div>
-    <div>Unordered list</div>
-    <div>
-        List
-        <ul>
-            <li>Milk</li>
-            <li>Chocolate</li>
-            <li>Hot Sauce</li>
-        </ul>
-
-    </div>
-    <div>Ordered list</div>
-    <div>
-        List
-        <ol>
-            <li>Milk</li>
-            <li>Chocolate</li>
-            <li>Hot Sauce</li>
-        </ol>
-
-    </div>
+    </footer>    
+    <section id="section1">
+        <h1>Section 1 Images</h1>
+        <p>
+            Tree
+            <img src="LandscapeDark.png" width="2450" height="2450" alt="Dark Landscape with tree in center">
+        </p>        
+    </section>
+    <section id="section2">
+        <h1>Section 2 HyperLinks</h1>
+        <p>
+            HyperLink<br>
+            Title is used to help vision impaired navigate the website<br>
+            The div tag can be used to make a region clickable<br>
+            The target attribute when set to _blank opens the link in a new tab<br>
+        
+            <a href="https://www.youtube.com/" target= "_blank"  title="YOUTUBE">this links to a website</a>
+            <a href="https://www.youtube.com/" target= "_blank" title="YOUTUBE"> <div>this div links to a website</div></a>
+        
+            <p>Links to section on the page if you use # and the id of the section</p>
+        </p>        
+    </section>
+    <section id="section3">
+        <h1>Entity References</h1>
+        <p>
+            & is an entity reference
+            &lt is less than, &gt is greater than &amp is ampersand need semi colons after them
+        </p>
+            <h4>Don't be afraid to be &lt;then a 100% success &amp; &gt;more:</h4>
+        <p>
+            &quot;It is not the critic who counts: not the man who points out 
+            how the strong man stumbles or where the doer of deeds could 
+            have done better. The credit belongs to the man who is actually 
+            in the arena, whose face is marred by dust and sweat and blood, 
+            who strives valiantly, who errs and comes up short again and again, 
+            because there is no effort without error or shortcoming, but who 
+            knows the great enthusiasms, the great devotions, who spends 
+            himself in a worthy cause; who, at the best, knows, in the end, 
+            the triumph of high achievement, and who, at the worst, if he fails, 
+            at least he fails while daring greatly, so that his place shall 
+            never be with those cold and timid souls who knew neither victory&nbsp;nor&nbsp;defeat.&quot; <br>
+            <br>
+            $nbsp is a non breaking space and keeps text on the same line<br>
+            Theodore Roosevelt 1910 &copy; Copyright
+        </p>        
+    </section>
+    <section id="section4">
+        <h1>Section 4 Lists</h1>
+        <div> 
+            The tag ul creates an unordered list
+            The tag li indicates a list item
+            the tag ol creates an ordered list
+        </div>
+        <div>Unordered list</div>
+        <div>
+            List
+            <ul>
+                <li>Milk</li>
+                <li>Chocolate</li>
+                <li>Hot Sauce</li>
+            </ul>
+    
+        </div>
+        <div>Ordered list</div>
+        <div>
+            List
+            <ol>
+                <li>Milk</li>
+                <li>Chocolate</li>
+                <li>Hot Sauce</li>
+            </ol>
+    
+        </div>       
+    </section>
+    <section>
+        <h1><a name="section5"> Section 5 Back To Top </a></h1>
+        <p>
+            Back to top: <a href="#top"> Back to Top</a>
+        </p>     
+    </section>
 </body>
 </html>
