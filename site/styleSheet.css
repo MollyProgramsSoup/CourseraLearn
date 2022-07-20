@@ -16,3 +16,9 @@ h1 {
 .blue {
     color: blue;
 }
+
+ul, ol, #name {
+    color:rgb(49, 126, 60);
+    font-weight: bold;
+    text-align: center;
+}
